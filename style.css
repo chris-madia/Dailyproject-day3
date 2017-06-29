@@ -1,0 +1,100 @@
+/*
+font info:
+    family - Helvetica, Arial, sans-serif
+    line-height - 1.6
+
+
+colors:
+    light gray - ##eee
+    gray - #dddddd
+    yellow - #ffd24a
+    orange - #ff8523
+    blue - #1fabe5
+    dark blue - #046c97
+*/
+h1 h2 h3 h4 h5 h6 p body{
+  margin: 0;
+
+}
+
+h2{
+  color: #1fabe5;
+}
+h3{
+  color: #1fabe5;
+}
+
+body{
+  background-image: url(img/bg.jpg);
+}
+body > div {
+  background-color: white;
+  max-width: 80%;
+  margin: 0 auto;
+
+}
+
+#site_header{
+  background: #ff8523;
+  padding: 20px;
+  margin: 10px 5px 30px 5px;
+
+}
+#logo{
+  padding-top: 20px;
+}
+.main_navigation a{
+  border: 1px solid white;
+  border-radius: 5px;
+  border-width: thin;
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 2rem
+  display:inline-block;
+
+}
+#page_content{
+  text-decoration: none;
+  padding: 20px;
+}
+table, tr, td {
+  border: 2px solid black;
+  border-collapse: collapse;
+
+}
+
+thead td {
+  background-color: #1fabe5;
+  color: white;
+
+}
+
+tbody, tr, td {
+  padding: 10px;
+}
+
+td image {
+  width: 100px;
+
+}
+
+form {
+  background: gray;
+  padding: 20px;
+  margin:10px;
+}
+
+.name {
+  background: orange;
+  padding: 20px;
+  margin: 10px;
+
+}
+.city_container {
+  margin: 20px;
+}
+
+label {
+
+}
